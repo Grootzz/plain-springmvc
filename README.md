@@ -44,17 +44,16 @@ SpringMVC的`DispatcherServlet`的`initStrategies`方法会初始化9大组件�
 ## 目录结构
 
 ```xml
-plain-springmvc
-    ├─src
-    │  └─main
-    │      ├─java
-    │      │  └─edu
-    │      │      └─uestc
-    │      │          ├─annotation 	# 定义@Controller、@RequestMapping、@RequestParam
-    │      │          ├─core		# Controller处理器
-    │      │          └─servlet		# DispatcherServlet请求分发逻辑
-    │      ├─resources 				# mvc配置（模拟SpringMVC配置）
-    │      └─webapp
-    │          └─WEB-INF			# web配置文件
+src
+  └─main
+      ├─java
+      │  └─edu
+      │      └─uestc
+      │          ├─annotation # 定义@Controller、@RequestMapping、@RequestParam
+      │          ├─core # Controller处理器
+      │          └─servlet # DispatcherServlet请求分发逻辑
+      ├─resources # mvc配置（模拟SpringMVC配置）
+      └─webapp
+          └─WEB-INF	# web配置文件
 ```
 
