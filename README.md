@@ -1,5 +1,9 @@
 # 仿写SpringMVC框架
 
+- [初始化阶段](#初始化阶段)
+- [执行阶段](#执行阶段)
+- [目录结构](#目录结构)
+
 这是一个SpringMVC的仿写示例，实现了`@Controller`、`@RequestMapping`、`@RequestParam`注解的处理，以及`DispatcherServlet`的执行逻辑，旨在加强对SpringMVC的理解。
 
 实现逻辑分为两个阶段：
